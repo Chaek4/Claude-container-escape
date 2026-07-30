@@ -53,16 +53,19 @@ jobs:
           disable-animations: true
           script: bash analyze.sh
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      - name: Commit results to repo
         if: always()
-        with:
-          name: apk-analysis-results
-          path: |
-            /tmp/capture.pcap
-            /tmp/screen1.png
-            /tmp/screen2.png
-            /tmp/logcat_full.txt
-            /tmp/logcat_app.txt
-            /tmp/analysis.txt
-          retention-days: 7
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
+          # Копируем результаты в папку репозитория
+          mkdir -p results
+          cp /tmp/analysis.txt results/analysis.txt 2>/dev/null || echo "No analysis.txt" > results/analysis.txt
+          cp /tmp/logcat_full.txt results/logcat_full.txt 2>/dev/null || echo "No logcat" > results/logcat_full.txt
+          cp /tmp/screen1.png results/screen1.png 2>/dev/null || true
+          cp /tmp/screen2.png results/screen2.png 2>/dev/null || true
+          
+          git add results/
+          git commit -m "Add analysis results" || echo "Nothing to commit"
+          git push
