@@ -1,0 +1,1112 @@
+=== PERMISSIONS ===
+      android.permission.FOREGROUND_SERVICE: granted=true
+      ru.lostbotapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+
+=== NETWORK CONNECTIONS ===
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.0.2.16:58214         172.217.115.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:55850         142.251.157.119:https   ESTABLISHED
+tcp        0      1 10.0.2.16:52582         10.0.2.3:853            SYN_SENT   
+tcp        0      0 10.0.2.16:55522         172.217.115.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:58212         172.217.115.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:46812         142.251.157.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:55540         142.251.157.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:33194         172.217.115.4:https     TIME_WAIT  
+tcp        0      0 10.0.2.16:33194         172.217.115.4:https     TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:38078  dclaxa-az-in-f6.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:40606  dclaxa-ay-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:52968  dclaxb-aw-in-f2.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:58232  qro02s23-in-f14.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:56842  sea09s35-in-f14.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:44552  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:35006  dclaxb-aw-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:53458  dclaxa-az-in-f6.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:37584  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:58284  dclaxb-av-in-f3.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:48634  dclaxa-ay-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:53552  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:41276  dclaxa-az-in-f6.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:33706  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:52492  dfw28s30-in-f14.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:33698  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:40168  dclaxa-ay-in-f2.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:37292  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:42438  dclaxb-aw-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:60664  dclaxa-az-in-f6.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:58190  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:52478  dfw28s30-in-f14.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:58206  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:41372  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:58218  qro02s23-in-f14.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:38910  dclaxa-as-in-f3.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:41386  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:49052  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:47200  dclaxa-av-in-f14.:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:58708  ::ffff:142.251.15:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:33702  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:45152  dclaxb-aw-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:52236  dy-in-f188.1e100.n:5228 ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:53554  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:42448  dclaxb-aw-in-f2.1:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:37304  ::ffff:172.217.11:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:59018  dclaxa-as-in-f14.:https TIME_WAIT  
+tcp6       0      0 ::ffff:10.0.2.16:60142  ::ffff:172.217.11:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:58548  dclaxb-av-in-f3.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:52480  dfw28s30-in-f14.1:https ESTABLISHED
+tcp6       0      0 ::ffff:10.0.2.16:37598  ::ffff:172.217.11:https TIME_WAIT  
+udp     2560      0 10.0.2.16:bootpc        10.0.2.2:bootps         ESTABLISHED
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags	 Type	    State	    I-Node Path
+unix  2      [ ]         DGRAM                       13879 /data/system/unsolzygotesocket
+unix  28     [ ]         DGRAM                        9519 /dev/socket/statsdw
+unix  109    [ ]         DGRAM                         374 /dev/socket/logdw
+unix  2      [ ]         DGRAM                       16576 /dev/socket/wpa_wlan0
+unix  2      [ ]         DGRAM                       62623 
+unix  3      [ ]         SEQPACKET  CONNECTED        20121 
+unix  2      [ ]         DGRAM                       14680 
+unix  3      [ ]         SEQPACKET  CONNECTED        18327 
+unix  3      [ ]         STREAM     CONNECTED        13490 /dev/socket/traced_producer
+unix  3      [ ]         SEQPACKET  CONNECTED        91813 
+unix  3      [ ]         SEQPACKET  CONNECTED        30412 
+unix  3      [ ]         SEQPACKET  CONNECTED        43743 
+unix  2      [ ]         DGRAM                      117227 
+unix  3      [ ]         STREAM     CONNECTED        40604 
+unix  3      [ ]         SEQPACKET  CONNECTED        18764 
+unix  2      [ ]         DGRAM                       95256 
+unix  2      [ ]         DGRAM                       18375 
+unix  2      [ ]         DGRAM                       10547 
+unix  3      [ ]         SEQPACKET  CONNECTED        18198 
+unix  3      [ ]         SEQPACKET  CONNECTED        16121 
+unix  3      [ ]         STREAM     CONNECTED       118060 
+unix  2      [ ]         DGRAM                       14370 
+unix  2      [ ]         DGRAM                      114108 
+unix  3      [ ]         SEQPACKET  CONNECTED        31856 
+unix  2      [ ]         DGRAM                        9475 
+unix  3      [ ]         SEQPACKET  CONNECTED        19350 
+unix  3      [ ]         SEQPACKET  CONNECTED        18440 @jdwp-control
+unix  3      [ ]         STREAM     CONNECTED       101723 
+unix  3      [ ]         DGRAM                       14691 
+unix  3      [ ]         STREAM     CONNECTED        61363 
+unix  2      [ ]         DGRAM                       10983 
+unix  2      [ ]         DGRAM                      115802 
+unix  3      [ ]         SEQPACKET  CONNECTED        35780 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        91812 
+unix  2      [ ]         DGRAM                       48921 
+unix  3      [ ]         SEQPACKET  CONNECTED        18989 
+unix  2      [ ]         DGRAM                       13131 
+unix  3      [ ]         SEQPACKET  CONNECTED        30413 
+unix  3      [ ]         SEQPACKET  CONNECTED        19316 /dev/socket/adbd
+unix  3      [ ]         SEQPACKET  CONNECTED        16734 
+unix  3      [ ]         SEQPACKET  CONNECTED        20119 
+unix  3      [ ]         SEQPACKET  CONNECTED       119417 
+unix  2      [ ]         DGRAM                       10764 
+unix  3      [ ]         STREAM     CONNECTED        19762 /dev/socket/traced_producer
+unix  2      [ ]         DGRAM                       14639 
+unix  3      [ ]         SEQPACKET  CONNECTED        92639 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        48205 
+unix  3      [ ]         SEQPACKET  CONNECTED        75295 
+unix  3      [ ]         SEQPACKET  CONNECTED        40625 
+unix  2      [ ]         DGRAM                       13264 
+unix  2      [ ]         DGRAM                       66338 
+unix  3      [ ]         SEQPACKET  CONNECTED        42388 
+unix  3      [ ]         SEQPACKET  CONNECTED        35779 
+unix  3      [ ]         SEQPACKET  CONNECTED        44967 
+unix  2      [ ]         DGRAM                       14532 
+unix  2      [ ]         DGRAM                        9005 
+unix  3      [ ]         STREAM     CONNECTED        18258 
+unix  2      [ ]         DGRAM                       10515 
+unix  3      [ ]         STREAM     CONNECTED       101724 
+unix  3      [ ]         STREAM     CONNECTED        18274 
+unix  2      [ ]         DGRAM                       19270 
+unix  3      [ ]         SEQPACKET  CONNECTED        20754 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED       117240 
+unix  2      [ ]         DGRAM                       62367 
+unix  3      [ ]         SEQPACKET  CONNECTED        47202 
+unix  2      [ ]         DGRAM                       32702 
+unix  2      [ ]         DGRAM                       15430 
+unix  3      [ ]         STREAM     CONNECTED        18326 
+unix  3      [ ]         SEQPACKET  CONNECTED        18197 
+unix  3      [ ]         SEQPACKET  CONNECTED        17669 
+unix  3      [ ]         SEQPACKET  CONNECTED        11203 /dev/socket/logdr
+unix  3      [ ]         SEQPACKET  CONNECTED       114118 
+unix  3      [ ]         STREAM     CONNECTED        40600 
+unix  3      [ ]         SEQPACKET  CONNECTED        30421 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        48206 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED         8690 
+unix  3      [ ]         SEQPACKET  CONNECTED        33918 
+unix  3      [ ]         SEQPACKET  CONNECTED        19275 
+unix  3      [ ]         SEQPACKET  CONNECTED        16120 
+unix  2      [ ]         DGRAM                       19834 
+unix  3      [ ]         SEQPACKET  CONNECTED        16632 
+unix  2      [ ]         DGRAM                       12329 
+unix  3      [ ]         SEQPACKET  CONNECTED        93092 
+unix  3      [ ]         SEQPACKET  CONNECTED        48939 
+unix  3      [ ]         SEQPACKET  CONNECTED       116497 
+unix  2      [ ]         DGRAM                       47953 
+unix  2      [ ]         DGRAM                       42374 
+unix  2      [ ]         DGRAM                       30402 
+unix  3      [ ]         STREAM     CONNECTED        12718 
+unix  2      [ ]         DGRAM                       12103 
+unix  3      [ ]         SEQPACKET  CONNECTED        19315 
+unix  3      [ ]         SEQPACKET  CONNECTED        93416 
+unix  3      [ ]         STREAM     CONNECTED       101720 
+unix  3      [ ]         SEQPACKET  CONNECTED        47958 
+unix  3      [ ]         DGRAM                       14692 
+unix  3      [ ]         SEQPACKET  CONNECTED        19839 
+unix  3      [ ]         SEQPACKET  CONNECTED        18276 
+unix  3      [ ]         SEQPACKET  CONNECTED        94012 
+unix  3      [ ]         SEQPACKET  CONNECTED        16315 
+unix  3      [ ]         STREAM     CONNECTED       118059 
+unix  3      [ ]         SEQPACKET  CONNECTED       117941 
+unix  3      [ ]         SEQPACKET  CONNECTED        30239 @jdwp-control
+unix  2      [ ]         DGRAM                       15313 
+unix  3      [ ]         SEQPACKET  CONNECTED        30108 @jdwp-control
+unix  2      [ ]         DGRAM                       13445 
+unix  3      [ ]         SEQPACKET  CONNECTED        17323 
+unix  3      [ ]         SEQPACKET  CONNECTED        16526 
+unix  2      [ ]         DGRAM                       11974 
+unix  2      [ ]         DGRAM                       11534 
+unix  3      [ ]         SEQPACKET  CONNECTED        29431 
+unix  3      [ ]         SEQPACKET  CONNECTED        20591 
+unix  3      [ ]         SEQPACKET  CONNECTED        48940 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        18089 
+unix  3      [ ]         STREAM     CONNECTED        30841 
+unix  3      [ ]         STREAM     CONNECTED        14205 
+unix  2      [ ]         DGRAM                         625 
+unix  3      [ ]         SEQPACKET  CONNECTED        33919 
+unix  3      [ ]         SEQPACKET  CONNECTED        30985 
+unix  3      [ ]         STREAM     CONNECTED        15301 
+unix  2      [ ]         DGRAM                       73768 
+unix  2      [ ]         DGRAM                       13745 
+unix  3      [ ]         STREAM     CONNECTED       118489 
+unix  2      [ ]         DGRAM                       11859 
+unix  2      [ ]         DGRAM                       10168 
+unix  3      [ ]         SEQPACKET  CONNECTED        30258 
+unix  3      [ ]         STREAM     CONNECTED        15302 /dev/socket/zygote_secondary
+unix  3      [ ]         SEQPACKET  CONNECTED        18194 
+unix  3      [ ]         SEQPACKET  CONNECTED        16145 
+unix  3      [ ]         SEQPACKET  CONNECTED        29553 
+unix  3      [ ]         SEQPACKET  CONNECTED        20752 
+unix  3      [ ]         SEQPACKET  CONNECTED        14217 
+unix  3      [ ]         SEQPACKET  CONNECTED        30205 @jdwp-control
+unix  3      [ ]         STREAM     CONNECTED        17927 
+unix  3      [ ]         STREAM     CONNECTED        11661 
+unix  2      [ ]         DGRAM                       17389 
+unix  3      [ ]         SEQPACKET  CONNECTED        17105 
+unix  2      [ ]         DGRAM                       14271 
+unix  3      [ ]         STREAM     CONNECTED       118065 
+unix  3      [ ]         SEQPACKET  CONNECTED        17349 
+unix  2      [ ]         DGRAM                         449 
+unix  3      [ ]         SEQPACKET  CONNECTED        73303 
+unix  2      [ ]         DGRAM                       14761 
+unix  3      [ ]         SEQPACKET  CONNECTED        29554 
+unix  2      [ ]         DGRAM                       13710 
+unix  3      [ ]         SEQPACKET  CONNECTED        36953 
+unix  3      [ ]         SEQPACKET  CONNECTED        18063 
+unix  3      [ ]         SEQPACKET  CONNECTED        17106 @jdwp-control
+unix  2      [ ]         DGRAM                       32829 
+unix  2      [ ]         DGRAM                       11676 
+unix  2      [ ]         DGRAM                        9581 
+unix  3      [ ]         SEQPACKET  CONNECTED        17923 
+unix  3      [ ]         STREAM     CONNECTED        17069 
+unix  3      [ ]         SEQPACKET  CONNECTED        13760 
+unix  3      [ ]         SEQPACKET  CONNECTED        36209 
+unix  3      [ ]         SEQPACKET  CONNECTED        32786 
+unix  2      [ ]         DGRAM                       11775 
+unix  3      [ ]         SEQPACKET  CONNECTED        72431 
+unix  3      [ ]         SEQPACKET  CONNECTED        17079 @jdwp-control
+unix  3      [ ]         STREAM     CONNECTED        15543 /dev/socket/mdns
+unix  3      [ ]         SEQPACKET  CONNECTED        30257 
+unix  3      [ ]         STREAM     CONNECTED        17926 
+unix  3      [ ]         SEQPACKET  CONNECTED        35194 
+unix  2      [ ]         DGRAM                       36205 
+unix  3      [ ]         SEQPACKET  CONNECTED        19399 @jdwp-control
+unix  3      [ ]         STREAM     CONNECTED        16316 
+unix  3      [ ]         SEQPACKET  CONNECTED        29622 
+unix  3      [ ]         SEQPACKET  CONNECTED        14221 
+unix  3      [ ]         SEQPACKET  CONNECTED        12120 
+unix  2      [ ]         DGRAM                       30976 
+unix  3      [ ]         STREAM     CONNECTED        61790 
+unix  2      [ ]         DGRAM                       17062 
+unix  2      [ ]         DGRAM                       13756 
+unix  3      [ ]         SEQPACKET  CONNECTED        32972 @jdwp-control
+unix  2      [ ]         DGRAM                       11611 
+unix  3      [ ]         SEQPACKET  CONNECTED        29417 
+unix  2      [ ]         DGRAM                       11878 
+unix  3      [ ]         SEQPACKET  CONNECTED        19353 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        91841 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        29525 
+unix  3      [ ]         STREAM     CONNECTED        18184 
+unix  2      [ ]         DGRAM                         875 
+unix  3      [ ]         SEQPACKET  CONNECTED        30677 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        29624 
+unix  3      [ ]         SEQPACKET  CONNECTED        14219 
+unix  3      [ ]         SEQPACKET  CONNECTED        14161 /dev/socket/lmkd
+unix  3      [ ]         SEQPACKET  CONNECTED        12119 
+unix  3      [ ]         SEQPACKET  CONNECTED        19840 
+unix  3      [ ]         STREAM     CONNECTED       118483 
+unix  3      [ ]         STREAM     CONNECTED        10230 
+unix  3      [ ]         SEQPACKET  CONNECTED        73350 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        17103 
+unix  3      [ ]         SEQPACKET  CONNECTED        14223 
+unix  2      [ ]         DGRAM                       15225 
+unix  2      [ ]         DGRAM                       12244 
+unix  3      [ ]         STREAM     CONNECTED       118064 
+unix  3      [ ]         SEQPACKET  CONNECTED       116352 
+unix  3      [ ]         SEQPACKET  CONNECTED        93096 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED       117942 @jdwp-control
+unix  2      [ ]         DGRAM                       16175 
+unix  3      [ ]         STREAM     CONNECTED       118484 
+unix  2      [ ]         DGRAM                       10184 
+unix  3      [ ]         STREAM     CONNECTED        17924 
+unix  2      [ ]         DGRAM                       11820 
+unix  2      [ ]         DGRAM                       19348 
+unix  2      [ ]         DGRAM                       17199 
+unix  3      [ ]         SEQPACKET  CONNECTED        16527 
+unix  2      [ ]         DGRAM                       30815 
+unix  2      [ ]         DGRAM                       14096 
+unix  3      [ ]         STREAM     CONNECTED        12209 
+unix  3      [ ]         SEQPACKET  CONNECTED        30858 
+unix  3      [ ]         SEQPACKET  CONNECTED        19351 
+unix  3      [ ]         SEQPACKET  CONNECTED        36945 
+unix  3      [ ]         SEQPACKET  CONNECTED        29621 
+unix  3      [ ]         SEQPACKET  CONNECTED        18064 
+unix  3      [ ]         SEQPACKET  CONNECTED        44968 @jdwp-control
+unix  2      [ ]         DGRAM                       18762 
+unix  2      [ ]         DGRAM                       14510 
+unix  3      [ ]         SEQPACKET  CONNECTED        29992 
+unix  2      [ ]         DGRAM                      116495 
+unix  2      [ ]         DGRAM                       62618 
+unix  3      [ ]         SEQPACKET  CONNECTED         8689 
+unix  3      [ ]         DGRAM                       14690 
+unix  3      [ ]         SEQPACKET  CONNECTED       119418 
+unix  3      [ ]         SEQPACKET  CONNECTED        20619 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        19725 
+unix  2      [ ]         DGRAM                       13657 
+unix  3      [ ]         SEQPACKET  CONNECTED        19276 
+unix  3      [ ]         SEQPACKET  CONNECTED       116500 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        31855 
+unix  2      [ ]         DGRAM                       14381 
+unix  3      [ ]         SEQPACKET  CONNECTED       116498 
+unix  3      [ ]         SEQPACKET  CONNECTED        93093 
+unix  3      [ ]         SEQPACKET  CONNECTED        75299 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED         8707 
+unix  2      [ ]         DGRAM                       18385 
+unix  3      [ ]         SEQPACKET  CONNECTED        11202 
+unix  3      [ ]         SEQPACKET  CONNECTED        16138 
+unix  3      [ ]         SEQPACKET  CONNECTED        16735 
+unix  3      [ ]         SEQPACKET  CONNECTED       114117 
+unix  2      [ ]         DGRAM                        9071 
+unix  3      [ ]         SEQPACKET  CONNECTED        36886 
+unix  2      [ ]         DGRAM                       12985 
+unix  3      [ ]         SEQPACKET  CONNECTED       116499 
+unix  2      [ ]         DGRAM                       16589 
+unix  3      [ ]         SEQPACKET  CONNECTED        16139 
+unix  3      [ ]         SEQPACKET  CONNECTED        18328 
+unix  3      [ ]         STREAM     CONNECTED        18259 
+unix  2      [ ]         DGRAM                       10282 
+unix  3      [ ]         SEQPACKET  CONNECTED       116846 
+unix  3      [ ]         SEQPACKET  CONNECTED        43744 
+unix  3      [ ]         STREAM     CONNECTED        40603 
+unix  3      [ ]         SEQPACKET  CONNECTED        18765 
+unix  2      [ ]         DGRAM                       75293 
+unix  3      [ ]         SEQPACKET  CONNECTED        93417 
+unix  3      [ ]         STREAM     CONNECTED        19761 
+unix  3      [ ]         SEQPACKET  CONNECTED        16659 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED       114127 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        20120 
+unix  3      [ ]         STREAM     CONNECTED        18325 
+unix  2      [ ]         DGRAM                       10581 
+unix  2      [ ]         DGRAM                       14546 
+unix  2      [ ]         DGRAM                       62624 
+unix  3      [ ]         STREAM     CONNECTED        61362 
+unix  3      [ ]         DGRAM                       14689 
+unix  3      [ ]         SEQPACKET  CONNECTED        36887 
+unix  3      [ ]         STREAM     CONNECTED        18275 
+unix  3      [ ]         SEQPACKET  CONNECTED        19274 
+unix  2      [ ]         DGRAM                       33916 
+unix  2      [ ]         DGRAM                       14513 
+unix  2      [ ]         DGRAM                       43703 
+unix  3      [ ]         SEQPACKET  CONNECTED        41832 
+unix  3      [ ]         SEQPACKET  CONNECTED        31366 
+unix  2      [ ]         DGRAM                        9021 
+unix  2      [ ]         DGRAM                       93086 
+unix  3      [ ]         STREAM     CONNECTED       101721 
+unix  2      [ ]         DGRAM                       16141 
+unix  3      [ ]         SEQPACKET  CONNECTED        42389 @jdwp-control
+unix  2      [ ]         DGRAM                       16118 
+unix  3      [ ]         SEQPACKET  CONNECTED        19277 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        16658 
+unix  2      [ ]         DGRAM                      117235 
+unix  2      [ ]         DGRAM                       62619 
+unix  2      [ ]         DGRAM                       18933 
+unix  2      [ ]         DGRAM                       91802 
+unix  3      [ ]         SEQPACKET  CONNECTED        20753 
+unix  3      [ ]         SEQPACKET  CONNECTED         8708 
+unix  2      [ ]         DGRAM                       19331 
+unix  3      [ ]         SEQPACKET  CONNECTED        16633 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        47201 
+unix  3      [ ]         SEQPACKET  CONNECTED        19726 
+unix  2      [ ]         DGRAM                       16130 
+unix  2      [ ]         DGRAM                      115875 
+unix  3      [ ]         SEQPACKET  CONNECTED        16143 
+unix  3      [ ]         STREAM     CONNECTED        40601 
+unix  2      [ ]         DGRAM                       31849 
+unix  3      [ ]         SEQPACKET  CONNECTED       117239 
+unix  3      [ ]         SEQPACKET  CONNECTED        18990 
+unix  3      [ ]         SEQPACKET  CONNECTED        29993 @jdwp-control
+unix  2      [ ]         DGRAM                       13086 
+unix  2      [ ]         DGRAM                       19317 
+unix  2      [ ]         DGRAM                       20107 
+unix  3      [ ]         SEQPACKET  CONNECTED        18277 
+unix  2      [ ]         DGRAM                       10587 
+unix  3      [ ]         SEQPACKET  CONNECTED        18260 
+unix  3      [ ]         SEQPACKET  CONNECTED       116353 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        92638 
+unix  3      [ ]         SEQPACKET  CONNECTED        42387 
+unix  3      [ ]         SEQPACKET  CONNECTED        47957 
+unix  3      [ ]         SEQPACKET  CONNECTED        40624 
+unix  2      [ ]         DGRAM                        8965 
+unix  2      [ ]         DGRAM                       12719 
+unix  3      [ ]         SEQPACKET  CONNECTED        17398 
+unix  2      [ ]         DGRAM                       17097 
+unix  3      [ ]         SEQPACKET  CONNECTED        13759 
+unix  3      [ ]         SEQPACKET  CONNECTED        35195 
+unix  3      [ ]         SEQPACKET  CONNECTED        29422 
+unix  2      [ ]         DGRAM                       11757 
+unix  3      [ ]         SEQPACKET  CONNECTED        18193 
+unix  3      [ ]         SEQPACKET  CONNECTED        16671 @jdwp-control
+unix  2      [ ]         DGRAM                       97997 
+unix  2      [ ]         DGRAM                       30895 
+unix  2      [ ]         DGRAM                       17013 
+unix  3      [ ]         SEQPACKET  CONNECTED        14222 
+unix  3      [ ]         SEQPACKET  CONNECTED        29418 
+unix  3      [ ]         SEQPACKET  CONNECTED        17322 
+unix  3      [ ]         SEQPACKET  CONNECTED        13758 
+unix  3      [ ]         STREAM     CONNECTED       118488 
+unix  3      [ ]         SEQPACKET  CONNECTED        74195 
+unix  3      [ ]         STREAM     CONNECTED        61789 
+unix  2      [ ]         DGRAM                       11852 
+unix  3      [ ]         SEQPACKET  CONNECTED        29430 
+unix  3      [ ]         SEQPACKET  CONNECTED        20751 
+unix  3      [ ]         SEQPACKET  CONNECTED        16314 
+unix  3      [ ]         STREAM     CONNECTED        12717 
+unix  3      [ ]         SEQPACKET  CONNECTED        49799 
+unix  3      [ ]         SEQPACKET  CONNECTED        30837 
+unix  3      [ ]         SEQPACKET  CONNECTED        30983 
+unix  3      [ ]         STREAM     CONNECTED        15300 /dev/socket/zygote
+unix  3      [ ]         STREAM     CONNECTED        13715 /dev/socket/mdnsd
+unix  3      [ ]         SEQPACKET  CONNECTED        12114 
+unix  3      [ ]         SEQPACKET  CONNECTED        32971 
+unix  2      [ ]         DGRAM                       17928 
+unix  3      [ ]         SEQPACKET  CONNECTED        30204 
+unix  2      [ ]         DGRAM                       11657 
+unix  2      [ ]         DGRAM                       10166 
+unix  3      [ ]         SEQPACKET  CONNECTED        48938 
+unix  2      [ ]         DGRAM                       73300 
+unix  3      [ ]         SEQPACKET  CONNECTED        30203 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        20592 
+unix  3      [ ]         SEQPACKET  CONNECTED        14218 
+unix  2      [ ]         DGRAM                         649 
+unix  3      [ ]         STREAM     CONNECTED        30842 
+unix  3      [ ]         SEQPACKET  CONNECTED        16144 
+unix  3      [ ]         SEQPACKET  CONNECTED       116351 
+unix  3      [ ]         SEQPACKET  CONNECTED       113385 
+unix  2      [ ]         DGRAM                       11866 
+unix  2      [ ]         DGRAM                        9597 
+unix  3      [ ]         STREAM     CONNECTED        17072 @com.android.internal.os.WebViewZygoteInit/b5baf836-f01b-4c35-8b4a-237b28db63b2
+unix  3      [ ]         STREAM     CONNECTED        16478 
+unix  3      [ ]         SEQPACKET  CONNECTED        32785 
+unix  2      [ ]         DGRAM                       30316 
+unix  2      [ ]         DGRAM                       30856 
+unix  3      [ ]         SEQPACKET  CONNECTED        15227 
+unix  3      [ ]         STREAM     CONNECTED        13489 
+unix  3      [ ]         SEQPACKET  CONNECTED        29524 
+unix  2      [ ]         DGRAM                       93412 
+unix  2      [ ]         DGRAM                       17657 
+unix  3      [ ]         SEQPACKET  CONNECTED        90830 
+unix  3      [ ]         SEQPACKET  CONNECTED        16327 
+unix  2      [ ]         DGRAM                       29617 
+unix  2      [ ]         DGRAM                       20747 
+unix  3      [ ]         SEQPACKET  CONNECTED        18261 
+unix  3      [ ]         SEQPACKET  CONNECTED        73302 
+unix  3      [ ]         SEQPACKET  CONNECTED        17017 
+unix  3      [ ]         SEQPACKET  CONNECTED        30838 
+unix  2      [ ]         DGRAM                       17012 
+unix  2      [ ]         DGRAM                      116845 
+unix  3      [ ]         SEQPACKET  CONNECTED        17399 
+unix  2      [ ]         DGRAM                       13808 
+unix  3      [ ]         SEQPACKET  CONNECTED        17104 
+unix  3      [ ]         STREAM     CONNECTED        17925 
+unix  2      [ ]         DGRAM                       11803 
+unix  2      [ ]         DGRAM                       62625 
+unix  3      [ ]         SEQPACKET  CONNECTED        15281 
+unix  3      [ ]         SEQPACKET  CONNECTED        36944 
+unix  3      [ ]         STREAM     CONNECTED        16317 
+unix  3      [ ]         SEQPACKET  CONNECTED        18090 
+unix  3      [ ]         SEQPACKET  CONNECTED        30984 
+unix  3      [ ]         SEQPACKET  CONNECTED        17018 
+unix  3      [ ]         SEQPACKET  CONNECTED        12113 
+unix  2      [ ]         DGRAM                       17290 
+unix  2      [ ]         DGRAM                       62818 
+unix  3      [ ]         SEQPACKET  CONNECTED        17350 @jdwp-control
+unix  2      [ ]         DGRAM                       11604 
+unix  3      [ ]         SEQPACKET  CONNECTED        30676 
+unix  3      [ ]         SEQPACKET  CONNECTED        14220 
+unix  2      [ ]         DGRAM                       12246 
+unix  3      [ ]         SEQPACKET  CONNECTED        30843 
+unix  3      [ ]         SEQPACKET  CONNECTED        15226 
+unix  3      [ ]         SEQPACKET  CONNECTED        75296 
+unix  2      [ ]         DGRAM                       29551 
+unix  3      [ ]         SEQPACKET  CONNECTED        19398 
+unix  3      [ ]         STREAM     CONNECTED        18185 
+unix  3      [ ]         STREAM     CONNECTED        10229 
+unix  3      [ ]         STREAM     CONNECTED       118485 
+unix  3      [ ]         STREAM     CONNECTED        11660 
+unix  2      [ ]         DGRAM                       16516 
+unix  2      [ ]         DGRAM                       36717 
+unix  3      [ ]         SEQPACKET  CONNECTED        17102 
+unix  2      [ ]         DGRAM                         534 
+unix  3      [ ]         SEQPACKET  CONNECTED        30859 
+unix  3      [ ]         SEQPACKET  CONNECTED        14216 
+unix  2      [ ]         DGRAM                       13689 
+unix  3      [ ]         SEQPACKET  CONNECTED        29423 
+unix  3      [ ]         SEQPACKET  CONNECTED        19352 
+unix  3      [ ]         SEQPACKET  CONNECTED        36954 
+unix  2      [ ]         DGRAM                       16306 
+unix  3      [ ]         STREAM     CONNECTED       118482 
+unix  2      [ ]         DGRAM                       11845 
+unix  3      [ ]         SEQPACKET  CONNECTED        13761 @jdwp-control
+unix  2      [ ]         DGRAM                       51750 
+unix  3      [ ]         SEQPACKET  CONNECTED        18766 @jdwp-control
+unix  3      [ ]         SEQPACKET  CONNECTED        17078 
+unix  3      [ ]         SEQPACKET  CONNECTED        36210 
+
+=== APP FILES ===
+total 40
+drwx------   4 u0_a167 u0_a167        4096 2026-07-30 11:18 .
+drwxrwx--x 204 system  system        12288 2026-07-30 11:18 ..
+drwxrws--x   2 u0_a167 u0_a167_cache  4096 2026-07-30 11:18 cache
+drwxrws--x   2 u0_a167 u0_a167_cache  4096 2026-07-30 11:18 code_cache
+
+=== SHARED PREFERENCES ===
+
+=== LOGCAT APP ===
+07-30 11:18:06.823  1296  1328 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:06.824  1152  1170 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:06.939  1039  1039 D CarrierKeyDownloadManager: Carrier not enabled or invalid values
+07-30 11:18:06.945  1152  1170 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.022   495   989 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10080; state: DISABLED
+07-30 11:18:07.022   495   536 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10080; state: ENABLED
+07-30 11:18:07.076  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.228   417   417 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+07-30 11:18:07.432     0     0 W perfetto: disabled ftrace
+07-30 11:18:07.189  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.259  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.292  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.392  1152  1580 E GmsTaskScheduler: com.google.android.gms.clearcut.uploader.QosUploaderService is not available. This may cause the task to be lost.
+07-30 11:18:07.394  1152  1580 E GmsTaskScheduler: com.google.android.gms.clearcut.uploader.QosUploaderService is not available. This may cause the task to be lost.
+07-30 11:18:07.502     0     0 I init    : Command 'swapon_all /vendor/etc/fstab.${ro.hardware}' action=persist.sys.zram_enabled=1 && sys-boot-completed-set (/vendor/etc/init/hw/init.ranchu.rc:209) took 902ms and succeeded
+07-30 11:18:07.859   705   705 I OpaEnabledReceiver: Dispatching OPA eligble = false; AGSA = true; OPA enabled = false
+07-30 11:18:07.859   705   705 I OpaLayout: Setting opa enabled to false
+07-30 11:18:07.859   705   705 I OpaLayout: Setting opa enabled to false
+07-30 11:18:08.050     0     0 I init    : processing action (sys.user.0.ce_available=true) from (/system/etc/init/wifi.rc:21)
+07-30 11:18:07.884   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@2e3959b mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.771  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.945   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@35e1d38 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.954   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@d49b111 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.969   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@79c276 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.971   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@a5bf077 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.974   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@f73d4e4 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.974  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:07.993   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@b874d4d mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.994   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8b79002 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.994   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7951d13 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.995   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@90b5b50 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.995   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@f887149 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.995   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@712aa4e mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.037   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7ebb3d6 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.038   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@daaf657 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.038   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7239544 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.039   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@839762d mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.039   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@6473762 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.040   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@6fea0f3 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.040   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@e66c1b0 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.041   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@ee44829 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.044   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@de567ae mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:08.045   705   705 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=Android carrierName=No service nameSource=0 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@ed8594f mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+07-30 11:18:07.981  1152  1580 W ActivityThread: Failed to find provider info for com.google.android.gsf.gservices (user not unlocked)
+07-30 11:18:08.462  1039  1039 I NotificationMgr: updateCfi: subId= 1, visible=N
+07-30 11:18:08.489   495   526 I ActivityManager: User 0 state changed from RUNNING_LOCKED to RUNNING_UNLOCKING
+07-30 11:18:08.490   495   526 D ActivityManager: Unlocking user 0 progress 20
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.UnlockingUser-0
+07-30 11:18:08.490   495   535 I SystemServiceManager: Calling onUnlockingUser 0
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.security.FileIntegrityService
+07-30 11:18:08.490   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.security.FileIntegrityService took to complete: 0ms
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.Installer
+07-30 11:18:08.490   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.Installer took to complete: 0ms
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.os.DeviceIdentifiersPolicyService
+07-30 11:18:08.490   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.os.DeviceIdentifiersPolicyService took to complete: 0ms
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.uri.UriGrantsManagerService$Lifecycle
+07-30 11:18:08.490   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.uri.UriGrantsManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.490   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wm.ActivityTaskManagerService$Lifecycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wm.ActivityTaskManagerService$Lifecycle took to complete: 5ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.am.ActivityManagerService$Lifecycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.am.ActivityManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.DataLoaderManagerService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.DataLoaderManagerService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.power.PowerManagerService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.power.PowerManagerService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.power.ThermalManagerService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.power.ThermalManagerService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.recoverysystem.RecoverySystemService$Lifecycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.recoverysystem.RecoverySystemService$Lifecycle took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.lights.LightsService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.lights.LightsService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.display.DisplayManagerService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.display.DisplayManagerService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.UserManagerService$LifeCycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.UserManagerService$LifeCycle took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.om.OverlayManagerService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.om.OverlayManagerService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SensorPrivacyService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SensorPrivacyService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SystemConfigService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SystemConfigService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BatteryService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BatteryService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usage.UsageStatsService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usage.UsageStatsService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.webkit.WebViewUpdateService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.webkit.WebViewUpdateService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.CachedDeviceStateService
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.CachedDeviceStateService took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BinderCallsStatsService$LifeCycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BinderCallsStatsService$LifeCycle took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.LooperStatsService$Lifecycle
+07-30 11:18:08.495   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.LooperStatsService$Lifecycle took to complete: 0ms
+07-30 11:18:08.495   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.rollback.RollbackManagerService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.rollback.RollbackManagerService took to complete: 1ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.os.BugreportManagerService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.os.BugreportManagerService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.gpu.GpuService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.gpu.GpuService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.security.KeyChainSystemService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.security.KeyChainSystemService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.telecom.TelecomLoaderService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.telecom.TelecomLoaderService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.accounts.AccountManagerService$Lifecycle
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.accounts.AccountManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.content.ContentService$Lifecycle
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.content.ContentService$Lifecycle took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DropBoxManagerService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DropBoxManagerService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.AlarmManagerService
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.AlarmManagerService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BluetoothService
+07-30 11:18:08.496   495   535 D BluetoothManagerService: User 0 unlocked
+07-30 11:18:08.496   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.BluetoothService took to complete: 0ms
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.connectivity.IpConnectivityMetrics
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.connectivity.IpConnectivityMetrics took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.net.watchlist.NetworkWatchlistService$Lifecycle
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.net.watchlist.NetworkWatchlistService$Lifecycle took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.PinnerService
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.PinnerService took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.google.android.startop.iorap.IorapForwardingService
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.google.android.startop.iorap.IorapForwardingService took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.integrity.AppIntegrityManagerService
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.integrity.AppIntegrityManagerService took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.inputmethod.InputMethodManagerService$Lifecycle
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.inputmethod.InputMethodManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.accessibility.AccessibilityManagerService$Lifecycle
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.accessibility.AccessibilityManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.497   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.StorageManagerService$Lifecycle
+07-30 11:18:08.497   495   535 D StorageManagerService: onUnlockUser 0
+07-30 11:18:08.497   495   535 I StorageSessionController: On user unlock 0
+07-30 11:18:08.497   495   528 D BluetoothManagerService: MESSAGE_USER_UNLOCKED
+07-30 11:18:08.534   495   596 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE 
+07-30 11:18:08.545   495   596 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE 
+07-30 11:18:08.546   495   526 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+07-30 11:18:08.564   495   535 W SystemServiceManager: Service com.android.server.StorageManagerService$Lifecycle took 68 ms in onUnlockingUser-0
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.StorageManagerService$Lifecycle took to complete: 68ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usage.StorageStatsService$Lifecycle
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usage.StorageStatsService$Lifecycle took to complete: 0ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.UiModeManagerService
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.UiModeManagerService took to complete: 0ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.locksettings.LockSettingsService$Lifecycle
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.locksettings.LockSettingsService$Lifecycle took to complete: 0ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.testharness.TestHarnessModeService
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.testharness.TestHarnessModeService took to complete: 0ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DeviceIdleController
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DeviceIdleController took to complete: 0ms
+07-30 11:18:08.564   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.devicepolicy.DevicePolicyManagerService$Lifecycle
+07-30 11:18:08.564   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.devicepolicy.DevicePolicyManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.565   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.contentcapture.ContentCaptureManagerService
+07-30 11:18:08.570   495   596 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10165; state: DISABLED
+07-30 11:18:08.570   495   536 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10165; state: ENABLED
+07-30 11:18:08.573   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.contentcapture.ContentCaptureManagerService took to complete: 8ms
+07-30 11:18:08.573   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.systemcaptions.SystemCaptionsManagerService
+07-30 11:18:08.573   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.systemcaptions.SystemCaptionsManagerService took to complete: 0ms
+07-30 11:18:08.573   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appprediction.AppPredictionManagerService
+07-30 11:18:08.573   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appprediction.AppPredictionManagerService took to complete: 0ms
+07-30 11:18:08.573   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.contentsuggestions.ContentSuggestionsManagerService
+07-30 11:18:08.573   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.contentsuggestions.ContentSuggestionsManagerService took to complete: 0ms
+07-30 11:18:08.573   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.textservices.TextServicesManagerService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.textservices.TextServicesManagerService$Lifecycle took to complete: 11ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.textclassifier.TextClassificationManagerService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.textclassifier.TextClassificationManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.NetworkScoreService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.NetworkScoreService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.WifiService
+07-30 11:18:08.584   495   535 D WifiService: Handle user unlock 0
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.WifiService took to complete: 1ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.scanner.WifiScanningService
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.scanner.WifiScanningService took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.p2p.WifiP2pService
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wifi.p2p.WifiP2pService took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.notification.NotificationManagerService
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.notification.NotificationManagerService took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.storage.DeviceStorageMonitorService
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.storage.DeviceStorageMonitorService took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.location.LocationManagerService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.location.LocationManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.timedetector.TimeDetectorService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.timedetector.TimeDetectorService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.timezonedetector.TimeZoneDetectorService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.timezonedetector.TimeZoneDetectorService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.search.SearchManagerService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.search.SearchManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wallpaper.WallpaperManagerService$Lifecycle
+07-30 11:18:08.584   495   535 I WallpaperManagerService: on-unlock-user-0
+07-30 11:18:08.584   495   535 D WallpaperManagerService: on-unlock-user-0 took to complete: 0ms
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.wallpaper.WallpaperManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.audio.AudioService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.audio.AudioService$Lifecycle took to complete: 0ms
+07-30 11:18:08.584   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareService$Lifecycle
+07-30 11:18:08.584   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareService$Lifecycle took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DockObserver
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.DockObserver took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.midi.MidiService$Lifecycle
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.midi.MidiService$Lifecycle took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.adb.AdbService$Lifecycle
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.adb.AdbService$Lifecycle took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usb.UsbService$Lifecycle
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.usb.UsbService$Lifecycle took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.twilight.TwilightService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.twilight.TwilightService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.display.color.ColorDisplayService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.display.color.ColorDisplayService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.job.JobSchedulerService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.job.JobSchedulerService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.soundtrigger.SoundTriggerService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.soundtrigger.SoundTriggerService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.trust.TrustManagerService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.trust.TrustManagerService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.backup.BackupManagerService$Lifecycle
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.backup.BackupManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appwidget.AppWidgetService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appwidget.AppWidgetService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.role.RoleManagerService
+07-30 11:18:08.585   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.role.RoleManagerService took to complete: 0ms
+07-30 11:18:08.585   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.voiceinteraction.VoiceInteractionManagerService
+07-30 11:18:08.595  1039  1039 I NotificationMgr: updateCfi: subId= 1, visible=N
+07-30 11:18:08.597   495  1151 E ActivityManager: java.lang.Throwable
+07-30 11:18:08.611   495  1151 E ActivityManager: java.lang.Throwable
+07-30 11:18:08.622   495   535 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10123; state: DISABLED
+07-30 11:18:08.622   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.voiceinteraction.VoiceInteractionManagerService took to complete: 37ms
+07-30 11:18:08.622   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.GestureLauncherService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.GestureLauncherService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SensorNotificationService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.SensorNotificationService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.emergency.EmergencyAffordanceService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.emergency.EmergencyAffordanceService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.dreams.DreamManagerService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.dreams.DreamManagerService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.print.PrintManagerService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.print.PrintManagerService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.blob.BlobStoreManagerService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.blob.BlobStoreManagerService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.companion.CompanionDeviceManagerService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.companion.CompanionDeviceManagerService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.restrictions.RestrictionsManagerService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.restrictions.RestrictionsManagerService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.MediaSessionService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.MediaSessionService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.MediaResourceMonitorService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.MediaResourceMonitorService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.fingerprint.FingerprintService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.fingerprint.FingerprintService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.BiometricService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.BiometricService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.AuthService
+07-30 11:18:08.623   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.biometrics.AuthService took to complete: 0ms
+07-30 11:18:08.623   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.ShortcutService$Lifecycle
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.ShortcutService$Lifecycle took to complete: 5ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.LauncherAppsService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.LauncherAppsService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.CrossProfileAppsService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.CrossProfileAppsService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.people.PeopleService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.people.PeopleService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.projection.MediaProjectionManagerService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.media.projection.MediaProjectionManagerService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.slice.SliceManagerService$Lifecycle
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.slice.SliceManagerService$Lifecycle took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.camera.CameraServiceProxy
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.camera.CameraServiceProxy took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.stats.StatsCompanion$Lifecycle
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.stats.StatsCompanion$Lifecycle took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.stats.pull.StatsPullAtomService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.stats.pull.StatsPullAtomService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.incident.IncidentCompanionService
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.incident.IncidentCompanionService took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.MmsServiceBroker
+07-30 11:18:08.627   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.MmsServiceBroker took to complete: 0ms
+07-30 11:18:08.627   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.autofill.AutofillManagerService
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.autofill.AutofillManagerService took to complete: 0ms
+07-30 11:18:08.628   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.clipboard.ClipboardService
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.clipboard.ClipboardService took to complete: 0ms
+07-30 11:18:08.628   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appbinding.AppBindingService$Lifecycle
+07-30 11:18:08.628   495   535 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10146; state: DISABLED
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.appbinding.AppBindingService$Lifecycle took to complete: 1ms
+07-30 11:18:08.628   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.policy.PermissionPolicyService
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.policy.PermissionPolicyService took to complete: 0ms
+07-30 11:18:08.628   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.StagingManager$Lifecycle
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.pm.StagingManager$Lifecycle took to complete: 0ms
+07-30 11:18:08.628   495   535 D SystemServerTimingAsync: ssm.UnlockingUser-0 took to complete: 139ms
+07-30 11:18:08.628   495   535 I ActivityManager: User 0 state changed from RUNNING_UNLOCKING to RUNNING_UNLOCKED
+07-30 11:18:08.629   495   535 D SystemServerTiming: SystemUserUnlock took to complete: 4541ms
+07-30 11:18:08.637   495   535 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 1001; state: DISABLED
+07-30 11:18:08.637   495   535 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 1000; state: DISABLED
+07-30 11:18:08.639   495   535 V ActivityManager: Skipping ContentProviderInfo{name=com.google.android.gms className=com.google.android.gms.app.search.GmsSearchIndexablesProvider}
+07-30 11:18:08.643   495   535 V ActivityManager: Installing ContentProviderInfo{name=com.google.android.apps.wellbeing className=com.google.android.apps.wellbeing.searchindexables.impl.WellbeingSearchIndexablesProvider}
+07-30 11:18:08.644   495   535 V ActivityManager: Skipping ContentProviderInfo{name=com.google.android.gms className=com.google.android.gms.app.search.GmsSearchIndexablesProvider}
+07-30 11:18:08.677   495   526 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+07-30 11:18:08.678   495   535 V ActivityManager: Installing ContentProviderInfo{name=com.google.android.apps.nexuslauncher className=com.android.quickstep.LauncherSearchIndexablesProvider}
+07-30 11:18:08.679   495   635 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10119; state: DISABLED
+07-30 11:18:08.685   495   642 W FileUtils: 	at com.android.server.wifi.WifiConfigManager.handleUserUnlockOrSwitch(WifiConfigManager.java:2799)
+07-30 11:18:08.685   495   642 W FileUtils: 	at com.android.server.wifi.WifiConfigManager.handleUserUnlock(WifiConfigManager.java:2876)
+07-30 11:18:08.685   495   642 W FileUtils: 	at com.android.server.wifi.WifiServiceImpl.lambda$handleUserUnlock$3(WifiServiceImpl.java:457)
+07-30 11:18:08.685   495   642 W FileUtils: 	at com.android.server.wifi.WifiServiceImpl.lambda$handleUserUnlock$3$WifiServiceImpl(Unknown Source:0)
+07-30 11:18:08.696   495   642 W FileUtils: 	at com.android.server.wifi.WifiConfigManager.handleUserUnlockOrSwitch(WifiConfigManager.java:2799)
+07-30 11:18:08.696   495   642 W FileUtils: 	at com.android.server.wifi.WifiConfigManager.handleUserUnlock(WifiConfigManager.java:2876)
+07-30 11:18:08.696   495   642 W FileUtils: 	at com.android.server.wifi.WifiServiceImpl.lambda$handleUserUnlock$3(WifiServiceImpl.java:457)
+07-30 11:18:08.696   495   642 W FileUtils: 	at com.android.server.wifi.WifiServiceImpl.lambda$handleUserUnlock$3$WifiServiceImpl(Unknown Source:0)
+
+=== LOGCAT NETWORK ===
+07-30 11:18:07.413   398   408 I adbd    : jdwp connection from 1602
+07-30 11:18:08.232   495   642 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+07-30 11:18:08.233   495   642 D WifiClientModeImpl: CMD_START_CONNECT  my state DisconnectedState nid=0 roam=false
+07-30 11:18:08.234   495   642 I WifiClientModeImpl: Connecting with 02:15:b2:00:00:00 as the mac address
+07-30 11:18:08.235   495   642 D SupplicantStaIfaceHal: connectToNetwork "AndroidWifi"NONE
+07-30 11:18:08.247   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:08.249   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:08.389   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:08.398   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:08.430  1039  1039 I VvmSimStateTracker: Service connected on ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+07-30 11:18:08.462   495   646 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 1001 AdministratorUids: [] RequestorUid: 1001 RequestorPackageName: com.android.phone] ] (release request)
+07-30 11:18:08.496   495   535 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.connectivity.IpConnectivityMetrics
+07-30 11:18:08.497   495   535 D SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.connectivity.IpConnectivityMetrics took to complete: 0ms
+07-30 11:18:08.545   495   596 I StorageSessionController: Creating connection for user: 0
+07-30 11:18:08.548   495  1151 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}]: TSI.rPA@ADo
+07-30 11:18:08.549   495  1151 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA@ADo
+07-30 11:18:08.549  1039  1039 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+07-30 11:18:08.568   495   596 I StorageUserConnection: Binding to the ExternalStorageService for user 0
+07-30 11:18:08.575   495   596 I StorageUserConnection: Bound to the ExternalStorageService for user 0
+07-30 11:18:08.685   495   642 W FileUtils: android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+07-30 11:18:08.696   495   642 W FileUtils: android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+07-30 11:18:08.696   495  1338 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}]: TSI.rPA@AD4
+07-30 11:18:08.698   691   691 I wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to 00:13:10:85:fe:01 completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%2C%22creatorUid%22%3A%221000%22%7D]
+07-30 11:18:08.798   495  1338 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA@AD4
+07-30 11:18:08.800  1039  1039 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+07-30 11:18:08.910   495   638 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:08.912   495   642 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=54000Kbps LinkDnBandwidth>=54000Kbps OwnerUid: 1000 SSID: "AndroidWifi" RequestorUid: -1 RequestorPackageName: null]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+07-30 11:18:08.956   495   530 D HostConnection: createUnique: call
+07-30 11:18:08.956   495   530 D HostConnection: HostConnection::get() New Host Connection established 0x7d093f0dfbd0, tid 530
+07-30 11:18:08.982   495   530 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-30 11:18:09.008   495   638 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:09.018   398   408 I adbd    : jdwp connection from 1657
+07-30 11:18:09.090   495   646 D ConnectivityService: [100 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to UNKNOWN
+07-30 11:18:09.359   495   524 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}]: TSI.rPA@AEA
+07-30 11:18:09.359   495   524 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA@AEA
+07-30 11:18:09.362  1039  1039 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+07-30 11:18:09.395   398   408 I adbd    : jdwp connection from 1697
+07-30 11:18:09.498   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:09.509   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:09.582   495   642 V WifiClientModeImpl: stopIpClient IpClientWithPreConnection: false
+07-30 11:18:09.675   495   526 W Looper  : Slow dispatch took 295ms android.fg h=android.os.Handler c=com.android.server.om.-$$Lambda$IdmapDaemon$Connection$4U-n0RSv1BPv15mvu8B8zXARcpk@838be06 m=0
+07-30 11:18:09.695   398   408 I adbd    : jdwp connection from 1721
+07-30 11:18:09.726  1411  1757 W DataFileManager: java.io.FileNotFoundException: /data/user/0/com.google.android.inputmethod.latin/files/data_file_manager.pb: open failed: ENOENT (No such file or directory)
+07-30 11:18:09.726  1411  1757 W DataFileManager: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+07-30 11:18:09.782   398   408 I adbd    : jdwp connection from 1737
+07-30 11:18:09.788   398   408 I adbd    : jdwp connection from 1765
+07-30 11:18:09.845  1411  1803 I NetworkInfoNotification: NetworkInfoNotification$Listener.onReceive():89 onNetworkLost: networkState = NO_CONNECTION, isAirplaneModeOn = false
+07-30 11:18:09.878   495  1688 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{ ni{[type: MOBILE[], state: UNKNOWN/IDLE, reason: (unspecified), extra: epc.tmobile.com, failover: false, available: true, roaming: false]}  network{101}  nethandle{437197393933}  lp{{InterfaceName: eth0 LinkAddresses: [ fe80::5054:ff:fe12:3456/64,10.0.2.15/24,fec0::5054:ff:fe12:3456/64 ] DnsAddresses: [ /10.0.2.3 ] Domains: null MTU: 1500 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ ::/0 -> fe80::2 eth0 mtu 1500,0.0.0.0/0 -> 10.0.2.2 eth0 mtu 1500,fe80::/64 -> :: eth0 mtu 0,10.0.2.0/24 -> 0.0.0.0 eth0 mtu 0,fec0::/64 -> :: eth0 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]}  Score{10}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+07-30 11:18:09.890   495   646 D ConnectivityService: NetReassign [no changes]
+07-30 11:18:09.898   495   495 V NotificationAssistants: 0 notification assistant service connected: ComponentInfo{com.google.android.ext.services/android.ext.services.notification.Assistant}
+07-30 11:18:09.927   495   646 D ConnectivityService: Adding iface wlan0 to network 100
+07-30 11:18:09.880   495   495 W Binder:495_12: type=1400 audit(0.0:12): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+07-30 11:18:09.880   495   495 W Binder:495_12: type=1400 audit(0.0:14): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+07-30 11:18:10.027   495   646 E ConnectivityService: Exception adding interface: java.lang.IllegalStateException: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+07-30 11:18:10.061   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.100   398   408 I adbd    : jdwp connection from 1832
+07-30 11:18:10.123   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.134   495   646 D ConnectivityService: [101 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to UNKNOWN
+07-30 11:18:10.139   495   646 D ConnectivityService: [101 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to CONNECTED
+07-30 11:18:10.140   495   646 D ConnectivityService: Setting DNS servers for network 101 to [/10.0.2.3]
+07-30 11:18:10.208   398   408 I adbd    : jdwp connection from 1855
+07-30 11:18:10.355   495   646 D ConnectivityService: Adding iface eth0 to network 101
+07-30 11:18:10.374   495   495 V NotificationListeners: 0 notification listener service connected: ComponentInfo{com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener}
+07-30 11:18:10.376   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.392   922   922 D TouchInteractionService: Touch service connected
+07-30 11:18:10.394   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.403   495   646 D ConnectivityService: Setting DNS servers for network 101 to [/10.0.2.3]
+07-30 11:18:10.414   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.445   283  1882 W resolv  : SSL_connect ssl error =5, mark 0xf0065: Connection refused
+07-30 11:18:10.445   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.446   495   646 D ConnectivityService: NetReassign [12 : null → 101, 1 : null → 101, 11 : null → 101, 13 : null → 101, 2 : null → 101, 9 : null → 101, 15 : null → 101]
+07-30 11:18:10.447   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.453   495   646 D ConnectivityService: Switching to new default network: NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: epc.tmobile.com, failover: false, available: true, roaming: false]}  network{101}  nethandle{437197393933}  lp{{InterfaceName: eth0 LinkAddresses: [ fe80::5054:ff:fe12:3456/64,10.0.2.15/24,fec0::5054:ff:fe12:3456/64 ] DnsAddresses: [ /10.0.2.3 ] Domains: null MTU: 1500 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ ::/0 -> fe80::2 eth0 mtu 1500,0.0.0.0/0 -> 10.0.2.2 eth0 mtu 1500,fe80::/64 -> :: eth0 mtu 0,10.0.2.0/24 -> 0.0.0.0 eth0 mtu 0,fec0::/64 -> :: eth0 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]}  Score{10}  everValidated{false}  lastValidated{false}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+07-30 11:18:10.456   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.474   495   495 I StorageUserConnection: Service: [ComponentInfo{com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}] connected. User [0]
+07-30 11:18:10.481   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.523   495   646 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.529   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.537   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.542   495   639 W BestClock: java.time.DateTimeException: Missing NTP fix
+07-30 11:18:10.542   495   646 D ConnectivityService: Sending CONNECTED broadcast for type 0 [101 CELLULAR] isDefaultNetwork=true
+07-30 11:18:10.589   495  1688 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}]: TSI.rPA@AEg
+07-30 11:18:10.590   495  1688 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***]: TSI.rPA@AEg
+07-30 11:18:10.606   495   646 D ConnectivityService: [101 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to CONNECTED
+07-30 11:18:10.606   495   646 D ConnectivityService: [101 CELLULAR] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to CONNECTED
+07-30 11:18:10.607   495   646 E ConnectivityService: Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+07-30 11:18:10.607   495   646 E ConnectivityService: Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+07-30 11:18:10.612  1039  1039 D TelephonyProvider: setPreferredApn: mmsc1:http://mms.msg.eng.t-mobile.com/mms/wapenc
+07-30 11:18:10.666   398   408 I adbd    : jdwp connection from 1883
+07-30 11:18:10.815   495   646 D ConnectivityService: Setting DNS servers for network 100 to [/10.0.2.3]
+07-30 11:18:10.891   398   408 I adbd    : jdwp connection from 1919
+07-30 11:18:10.688   495   495 W Binder:495_8: type=1400 audit(0.0:15): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+07-30 11:18:11.050  1411  1411 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.net.conn.CONNECTIVITY_CHANGE
+07-30 11:18:11.055  1411  1411 I KeyboardDefManager: java.util.concurrent.CancellationException: Task was cancelled.
+07-30 11:18:11.115   495   646 D ConnectivityService: [100 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to CONNECTED
+07-30 11:18:11.141   495   646 D ConnectivityService: Setting DNS servers for network 100 to [/10.0.2.3]
+07-30 11:18:11.234  1510  1510 I Dialer  : VvmOmtpService - onCellServiceConnected
+07-30 11:18:11.268  1411  1803 I SuperDelight: SuperDelightManager.getDelightMetadataUriAndVersion():1036 getDelightMetadataUriAndVersion(): Phenotype : 2020043000 : https://www.gstatic.com/android/keyboard/dictionarypack/Klaw-normal/metadata.json
+07-30 11:18:11.280   398   408 I adbd    : jdwp connection from 1955
+07-30 11:18:11.282   947  1891 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+07-30 11:18:11.289   947  1892 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 746ms OK 142.251.214.99,2607:f8b0:4007:80c::2003
+07-30 11:18:11.314   495   646 D ConnectivityService: Adding iface wlan0 to network 100
+07-30 11:18:11.325   495   646 D ConnectivityService: Setting DNS servers for network 100 to [/10.0.2.3]
+07-30 11:18:11.366   495   646 D ConnectivityService: NetReassign [12 : 101 → 100, 1 : 101 → 100, 11 : 101 → 100, 13 : 101 → 100, 9 : 101 → 100, 15 : 101 → 100]
+07-30 11:18:11.367  1411  1782 I SP      : Registering delight.2020043000, url: https://www.gstatic.com/android/keyboard/dictionarypack/Klaw-normal/metadata.json, constraints: m:*, flags: *, requested: 2020043000, current: -1
+07-30 11:18:11.377   495   646 D ConnectivityService: Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{InterfaceName: wlan0 LinkAddresses: [ fe80::f4ef:bf7b:f09d:9aab/64,10.0.2.16/24 ] DnsAddresses: [ /10.0.2.3 ] Domains: null MTU: 0 ServerAddress: /10.0.2.2 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,10.0.2.0/24 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.0.2.2 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=37000Kbps LinkDnBandwidth>=37000Kbps SignalStrength: -50 OwnerUid: 1000 SSID: "AndroidWifi" RequestorUid: -1 RequestorPackageName: null]}  Score{20}  everValidated{false}  lastValidated{false}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+07-30 11:18:11.414  1411  1782 I SP      : Requesting download of URL https://www.gstatic.com/android/keyboard/dictionarypack/Klaw-normal/metadata.json to delight-2020043000.fetched (constraints: m:b)
+07-30 11:18:11.457   947  1892 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=144ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 30 Jul 2026 11:18:12 GMT], X-Android-Received-Millis=[1785410291457], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1785410291447]}
+07-30 11:18:11.463   398   408 I adbd    : jdwp connection from 1999
+07-30 11:18:11.476   398   408 I adbd    : jdwp connection from 2008
+07-30 11:18:11.524   495   646 D ConnectivityService: Sending DISCONNECTED broadcast for type 0 [101 CELLULAR] isDefaultNetwork=true
+07-30 11:18:11.545   495   646 D ConnectivityService: Sending CONNECTED broadcast for type 1 [100 WIFI] isDefaultNetwork=true
+07-30 11:18:11.623   398   408 I adbd    : jdwp connection from 2056
+07-30 11:18:11.642   495   495 W AppWidgetServiceImpl: Failed to read state: java.io.FileNotFoundException: /data/system/users/0/appwidgets.xml: open failed: ENOENT (No such file or directory)
+07-30 11:18:11.669  1039  1039 E PhoneInterfaceManager: [PhoneIntfMgr] setPreferredNetworkType: CommandException: com.android.internal.telephony.CommandException: MODE_NOT_SUPPORTED
+07-30 11:18:11.680   922  2017 D HostConnection: HostConnection::get() New Host Connection established 0x7d093f0d9750, tid 2017
+07-30 11:18:11.692   947  1891 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=380ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 30 Jul 2026 11:18:12 GMT], X-Android-Received-Millis=[1785410291691], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1785410291639]}
+07-30 11:18:11.707   398   408 I adbd    : jdwp connection from 2087
+07-30 11:18:11.714   922  2017 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-30 11:18:11.741   922  2017 D HostConnection: createUnique: call
+07-30 11:18:11.743   922  2017 D HostConnection: HostConnection::get() New Host Connection established 0x7d093f0d8e50, tid 2017
+07-30 11:18:11.758   947  1889 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=1228ms
+07-30 11:18:11.762   495   646 D ConnectivityService: [101 CELLULAR] validation passed
+07-30 11:18:11.762   495   646 D ConnectivityService: NetReassign [12 : 100 → 101, 1 : 100 → 101, 11 : 100 → 101, 13 : 100 → 101, 9 : 100 → 101, 15 : 100 → 101]
+07-30 11:18:11.764   495   646 D ConnectivityService: Switching to new default network: NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: epc.tmobile.com, failover: false, available: true, roaming: false]}  network{101}  nethandle{437197393933}  lp{{InterfaceName: eth0 LinkAddresses: [ fe80::5054:ff:fe12:3456/64,10.0.2.15/24,fec0::5054:ff:fe12:3456/64 ] DnsAddresses: [ /10.0.2.3 ] Domains: null MTU: 1500 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ ::/0 -> fe80::2 eth0 mtu 1500,0.0.0.0/0 -> 10.0.2.2 eth0 mtu 1500,fe80::/64 -> :: eth0 mtu 0,10.0.2.0/24 -> 0.0.0.0 eth0 mtu 0,fec0::/64 -> :: eth0 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> RequestorUid: -1 RequestorPackageName: null]}  Score{50}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+07-30 11:18:11.794   922  2017 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-30 11:18:11.801   495   646 D ConnectivityService: Sending DISCONNECTED broadcast for type 1 [100 WIFI] isDefaultNetwork=true
+07-30 11:18:11.801   495   646 D ConnectivityService: Sending CONNECTED broadcast for type 0 [101 CELLULAR] isDefaultNetwork=true
+07-30 11:18:11.805   495   646 D ConnectivityService: Setting DNS servers for network 101 to [/10.0.2.3]
+07-30 11:18:11.834   283  2111 W resolv  : SSL_connect ssl error =5, mark 0xf0065: Connection refused
+07-30 11:18:11.859  1411  1411 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.net.conn.CONNECTIVITY_CHANGE
+07-30 11:18:11.882  1411  1411 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.net.conn.CONNECTIVITY_CHANGE
+07-30 11:18:11.883  1411  1411 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.net.conn.CONNECTIVITY_CHANGE
+07-30 11:18:11.885  1411  1411 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.net.conn.CONNECTIVITY_CHANGE
+07-30 11:18:12.051   947  2018 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 556ms OK 142.251.214.99,2607:f8b0:4007:80c::2003
+07-30 11:18:12.164  2056  2056 E YouTube : flushBinderConnectionCallbacks is unverified on SDK 30
+07-30 11:18:12.209   694   694 E MediaBrowser: onConnectFailed for ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.mediabrowser.PodcastsMediaBrowserService}
+07-30 11:18:12.213   495   526 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=true, network=101, capabilities=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null], apn: epc.tmobile.com, availableNetworkCount: 1
+07-30 11:18:12.216   694   694 W AvrcpBrowsedPlayerWrapper: onConnectionFailed: Connection Failed with com.google.android.googlequicksearchbox
+07-30 11:18:12.216   694   694 D AvrcpBrowsablePlayerConnector: Browse player callback called: package=com.google.android.googlequicksearchbox : status=1
+07-30 11:18:12.216   694   694 D AvrcpBrowsablePlayerConnector: Received a message: msg.what=1
+07-30 11:18:12.216   694   694 I AvrcpBrowsablePlayerConnector: com.google.android.googlequicksearchbox is not browsable
+07-30 11:18:12.275  1376  1509 D HostConnection: HostConnection::get() New Host Connection established 0x7d093f0d9750, tid 1509
+07-30 11:18:12.283  1376  1509 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-30 11:18:12.533   398   408 I adbd    : jdwp connection from 2239
+07-30 11:18:12.795   495  1658 D ConnectivityService: requestNetwork for uid/pid:10147/2056 NetworkRequest [ TRACK_DEFAULT id=19, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10147 AdministratorUids: [] RequestorUid: 10147 RequestorPackageName: com.google.android.youtube] ]
+07-30 11:18:12.796   495   646 D ConnectivityService: NetReassign [19 : null → 101]
+07-30 11:18:12.806   495   646 D ConnectivityService: NetReassign [no changes]
+07-30 11:18:12.861  1152  2278 E AsyncOperation: OperationException[Status{statusCode=Empty (package not registered?) or malformed snapshot token: , resolution=null}]
+07-30 11:18:13.041   922   922 I AiAiSuggestUi: Connecting to system intelligence module.
+
+=== UNIQUE DEST IPs ===
+10.0.2.3
+10.1.1.114
+127.0.0.1
+127.0.0.53
+140.82.114.22
+142.251.150.119
+142.251.152.119
+142.251.156.119
+142.251.157.119
+142.251.157.4
+142.251.210.131
+142.251.210.142
+142.251.214.99
+142.251.215.194
+142.251.215.238
+142.251.218.14
+142.251.32.174
+142.251.34.67
+142.251.34.78
+142.251.35.70
+142.251.40.98
+142.251.45.8
+168.63.129.16
+169.254.169.254
+172.217.115.4
+172.217.117.4
+172.217.118.4
+172.217.119.4
+173.194.42.188
+20.75.202.224
+20.85.130.105
+216.239.35.4
+224.0.0.251
+57.150.4.193
+74.125.137.188
+
+=== DNS QUERIES ===
+119.152.251.142.in-addr.arpa
+119.157.251.142.in-addr.arpa
+131.210.251.142.in-addr.arpa
+14.218.251.142.in-addr.arpa
+142.210.251.142.in-addr.arpa
+16.2.0.10.in-addr.arpa
+174.32.251.142.in-addr.arpa
+188.137.125.74.in-addr.arpa
+194.215.251.142.in-addr.arpa
+2.2.0.10.in-addr.arpa
+238.215.251.142.in-addr.arpa
+3.2.0.10.in-addr.arpa
+4.115.217.172.in-addr.arpa
+4.117.217.172.in-addr.arpa
+4.118.217.172.in-addr.arpa
+4.119.217.172.in-addr.arpa
+4.157.251.142.in-addr.arpa
+67.34.251.142.in-addr.arpa
+70.35.251.142.in-addr.arpa
+78.34.251.142.in-addr.arpa
+98.40.251.142.in-addr.arpa
+ad.doubleclick.net
+adb-EMULATOR36X6X11X0._adb._tcp.local
+adb-EMULATOR36X6X11X0._adb._tcp.local,Android.local,Android.local
+adb-EMULATOR36X6X11X0._adb._tcp.local,Android.local,Android.local,Android.local
+adb-EMULATOR36X6X11X0._adb._tcp.local,Android.local,Android.local,Android.local,Android.local
+adservice.google.com
+alt4-mtalk.google.com
+alt4.mobile-gtalk4.l.google.com
+android.apis.google.com
+android.clients.google.com
+android.googleapis.com
+android.l.google.com
+app-measurement.com
+clients.l.google.com
+clientservices.googleapis.com
+connectivitycheck.gstatic.com
+dl.google.com
+firebaseinstallations.googleapis.com
+fonts.gstatic.com
+instantmessaging-pa.googleapis.com
+mobile-gtalk.l.google.com
+mtalk.google.com
+phonedeviceverification-pa.googleapis.com
+time.android.com
+www.google.com
+www.googleadservices.com
+www.googleapis.com
+www.googletagmanager.com
+www.gstatic.com
+www.youtube.com
+youtubei.googleapis.com
+
+=== MQTT port 1883 ===
+
+=== HTTP REQUESTS ===
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+142.251.214.99	connectivitycheck.gstatic.com	/generate_204
+142.251.214.99	connectivitycheck.gstatic.com	/generate_204
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+142.251.214.99	connectivitycheck.gstatic.com	/generate_204
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/health
+168.63.129.16	168.63.129.16	/HealthService
+169.254.169.254	169.254.169.254	/metadata/instance?api-version=2018-02-01
+168.63.129.16	168.63.129.16	/HealthService
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/HealthService
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16	/machine/?comp=goalstate
+168.63.129.16	168.63.129.16:32526	/vmSettings
+168.63.129.16	168.63.129.16:32526	/status
+168.63.129.16	168.63.129.16:32526	/status
