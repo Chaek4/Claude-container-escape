@@ -25,10 +25,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Install tshark & tools
+      - name: Install tools
         run: |
           sudo apt-get update -q
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tshark tcpdump netcat-openbsd
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tshark tcpdump
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
@@ -42,14 +42,6 @@ jobs:
             "platforms;android-30"
           echo "yes" | sdkmanager --licenses
 
-      - name: Create AVD
-        run: |
-          echo "no" | avdmanager create avd \
-            --name "test_avd" \
-            --package "system-images;android-30;google_apis;x86_64" \
-            --device "pixel_4" \
-            --force
-
       - name: Run emulator + APK analysis
         uses: reactivecircus/android-emulator-runner@v2
         with:
@@ -57,18 +49,17 @@ jobs:
           target: google_apis
           arch: x86_64
           profile: pixel_4
-          avd-name: test_avd
-          force-avd-creation: false
+          force-avd-creation: true
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -memory 2048
           disable-animations: true
           script: |
-            echo "=== Emulator is ready ==="
+            set -e
+            echo "=== Emulator ready ==="
             adb devices
 
             # Запускаем перехват трафика
             sudo tcpdump -i any -w /tmp/capture.pcap &
             TCPDUMP_PID=$!
-            echo "tcpdump PID: $TCPDUMP_PID"
 
             # Очищаем logcat
             adb logcat -c
@@ -79,82 +70,80 @@ jobs:
             echo "APK installed"
 
             # Получаем package name
-            PACKAGE=$(adb shell pm list packages | grep lostbot | sed 's/package://' | tr -d '\r')
-            echo "Package: $PACKAGE"
+            PACKAGE=$(adb shell pm list packages | grep lostbot | sed 's/package://' | tr -d '\r\n')
+            echo "Package: [$PACKAGE]"
 
-            # Запускаем приложение
+            # Получаем главный Activity
+            ACTIVITY=$(adb shell cmd package resolve-activity --brief "$PACKAGE" 2>/dev/null | tail -1 | tr -d '\r\n')
+            echo "Activity: [$ACTIVITY]"
+
+            # Запускаем приложение через am start
             echo "=== Launching app ==="
-            adb shell monkey -p "$PACKAGE" -c android.intent.category.LAUNCHER 1
+            adb shell am start -n "$ACTIVITY" || \
+            adb shell am start -a android.intent.action.MAIN -c android.intent.category.LAUNCHER "$PACKAGE"
+
             sleep 10
 
-            # Скриншот сразу после запуска
+            # Скриншот после запуска
             adb shell screencap -p /sdcard/screen1.png
-            adb pull /sdcard/screen1.png /tmp/screen1.png
+            adb pull /sdcard/screen1.png /tmp/screen1.png || true
 
             # Ждём ещё — даём приложению поработать
-            sleep 30
+            echo "Waiting 40s for app activity..."
+            sleep 40
 
             # Второй скриншот
             adb shell screencap -p /sdcard/screen2.png
-            adb pull /sdcard/screen2.png /tmp/screen2.png
+            adb pull /sdcard/screen2.png /tmp/screen2.png || true
 
-            echo "=== App info ==="
-            adb shell dumpsys package "$PACKAGE" | grep -E 'versionName|versionCode|firstInstall|lastUpdate|granted=true'
+            echo "=== Granted permissions ==="
+            adb shell dumpsys package "$PACKAGE" | grep "granted=true"
 
-            echo "=== Active network connections from emulator ==="
-            adb shell netstat -tuln 2>/dev/null || true
+            echo "=== Active network connections ==="
+            adb shell netstat 2>/dev/null | head -40 || true
 
-            echo "=== Processes ==="
-            adb shell ps | grep "$PACKAGE" || true
-
-            echo "=== App data files ==="
-            adb root || true
-            sleep 2
+            echo "=== App files ==="
+            adb root && sleep 2 || true
             adb shell ls -la /data/data/"$PACKAGE"/ 2>/dev/null || true
-            adb shell ls -la /data/data/"$PACKAGE"/shared_prefs/ 2>/dev/null || true
 
-            echo "=== Shared preferences content ==="
-            adb shell find /data/data/"$PACKAGE"/shared_prefs/ -name "*.xml" 2>/dev/null | while read f; do
+            echo "=== Shared preferences ==="
+            for f in $(adb shell ls /data/data/"$PACKAGE"/shared_prefs/ 2>/dev/null | tr -d '\r'); do
               echo "--- $f ---"
-              adb shell cat "$f" 2>/dev/null || true
+              adb shell cat "/data/data/$PACKAGE/shared_prefs/$f" 2>/dev/null || true
             done
 
-            echo "=== Databases ==="
-            adb shell find /data/data/"$PACKAGE"/databases/ -type f 2>/dev/null || true
+            echo "=== LOGCAT app ==="
+            adb logcat -d | grep -iE "lostbot|urent|mqtt|spam|unlock|bluetooth|ble|telegram|token" | head -300
 
-            echo "=== Logcat (app specific) ==="
-            adb logcat -d | grep -i "lostbot\|urent\|mqtt\|spam\|unlock\|bluetooth\|ble\|telegram" | head -300
-
-            echo "=== Logcat (network) ==="
-            adb logcat -d | grep -iE "connect|socket|http|mqtt|network|error|exception" | grep -v "Zygote\|art\|dalvik" | head -200
+            echo "=== LOGCAT network ==="
+            adb logcat -d | grep -iE "connect|socket|http|mqtt|network|IOException|Exception" \
+              | grep -vE "Zygote|art |dalvik|HealthConnect|wificond" | head -150
 
             # Останавливаем tcpdump
             sudo kill $TCPDUMP_PID 2>/dev/null || true
             sleep 3
 
-            echo "=== Traffic analysis ==="
-            sudo tshark -r /tmp/capture.pcap -T fields \
-              -e ip.dst -e ip.src -e tcp.dstport -e udp.dstport \
-              2>/dev/null | sort -u | grep -v '^$' | head -50
+            echo "=== Unique destination IPs ==="
+            sudo tshark -r /tmp/capture.pcap -T fields -e ip.dst 2>/dev/null \
+              | sort -u | grep -v '^$' | head -40
 
             echo "=== DNS queries ==="
             sudo tshark -r /tmp/capture.pcap -Y "dns.flags.response == 0" \
               -T fields -e dns.qry.name 2>/dev/null | sort -u | head -30
 
-            echo "=== MQTT traffic (port 1883) ==="
-            sudo tshark -r /tmp/capture.pcap -Y "tcp.port == 1883" 2>/dev/null | head -30
+            echo "=== MQTT port 1883 ==="
+            sudo tshark -r /tmp/capture.pcap -Y "tcp.port == 1883" 2>/dev/null | head -20
 
             echo "=== HTTP requests ==="
             sudo tshark -r /tmp/capture.pcap -Y "http.request" \
-              -T fields -e ip.dst -e http.host -e http.request.uri 2>/dev/null | head -30
+              -T fields -e ip.dst -e http.host -e http.request.uri 2>/dev/null | head -20
 
             echo "=== DONE ==="
 
-      - name: Save full logcat
+      - name: Save logcat
         if: always()
         run: |
           adb logcat -d > /tmp/logcat_full.txt 2>/dev/null || true
-          adb logcat -d | grep -i "lostbot\|urent\|mqtt\|spam\|unlock" > /tmp/logcat_app.txt 2>/dev/null || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -166,5 +155,4 @@ jobs:
             /tmp/screen1.png
             /tmp/screen2.png
             /tmp/logcat_full.txt
-            /tmp/logcat_app.txt
           retention-days: 7
